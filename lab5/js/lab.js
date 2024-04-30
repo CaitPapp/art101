@@ -1,8 +1,20 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+index.js - purpose and description here
+// Author: Caitlin Papp
+// Date:April 25 2024
+//Define variables
+carName = "Gwen";
+carYear = "2020";
+currentYear = "2024";
+
+// calculate
+age = currentYear - carYear
+// output
+document.writeIn("carName:" + carName +"<br>");
+document.writeIn("carYear" + carYear + "<br>");
+document.writeIn("currentYear" + currentYear + "<br>")
 
 // Constants
+
 
 // Functions
 
