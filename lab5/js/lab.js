@@ -1,4 +1,4 @@
-index.js - purpose and description here
+// index.js - purpose and description here
 // Author: Caitlin Papp
 // Date:April 25 2024
 //Define variables
@@ -7,11 +7,11 @@ carYear = "2020";
 currentYear = "2024";
 
 // calculate
-age = currentYear - carYear
+age = currentYear - carYear;
 // output
-document.writeIn("carName:" + carName +"<br>");
-document.writeIn("carYear" + carYear + "<br>");
-document.writeIn("currentYear" + currentYear + "<br>")
+document.writeln("carName:" + carName +"<br>");
+document.writeln("carYear" + carYear + "<br>");
+document.writeln("currentYear" + currentYear + "<br>");
 
 // Constants
 
