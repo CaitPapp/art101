@@ -2,7 +2,6 @@
 // Author: Caitlin Papp
 // Date: April 28, 2024
 // Art 101-01 Spring Quarter 2024
-
 // Constants
 
 // Functions

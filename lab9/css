@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black; /* Black writing */
+    background-color: lavender; /* Lavender background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid purple; /* Purple border */
+}
