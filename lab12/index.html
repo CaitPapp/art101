@@ -1,0 +1,43 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+</head>
+<body>
+    <label for="input"> Button:</label>
+    <input type="text" id="input"><br><br>
+    <button id="button">Submit</button>
+    <div id="output"></div>
+<script>scr=lab.js</script>
+   
+    <script>
+    
+        const inputField = document.getElementById('input');
+        const outputDiv = document.getElementById('output');
+        const submitButton = document.getElementById('button');
+
+        // Add event listener to the submit button
+        submitButton.addEventListener('click', function() {
+            // Get the value from the input field
+            const inputValue = inputField.value;
+
+            // Display the value in the output div
+            outputDiv.textContent = `You entered: ${inputValue}`;
+        });
+    </script>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sorting Hat</title>
+        <script src="script.js"></script> <!-- Link to your JavaScript file -->
+    </head>
+    <body>
+       
+    </body>
+    </html>
+</body>
+</html>
