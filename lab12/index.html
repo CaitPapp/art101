@@ -36,7 +36,26 @@
         <script src="script.js"></script> <!-- Link to your JavaScript file -->
     </head>
     <body>
-       
+       <!-- Inside the body section of your HTML file -->
+<label for="input">Please enter your name for sorting:</label>
+<input type="text" id="input"><br><br>
+<button id="button">Sort</button>
+<div id="output"></div>
+
+<script>
+    // Add click event listener to the button
+    document.getElementById('button').addEventListener('click', function() {
+        // Get the value from the input field
+        const name = document.getElementById('input').value;
+        // Run the sortingHat function
+        const house = sortingHat(name);
+        // Append a new styled paragraph to #output
+        const outputDiv = document.getElementById('output');
+        const paragraph = document.createElement('p');
+        paragraph.textContent = "The Sorting Hat has sorted you into " + house;
+        outputDiv.appendChild(paragraph);
+    });
+</script>
     </body>
     </html>
 </body>
